@@ -61,3 +61,11 @@ android {
 flutter {
     source '../..'
 }
+
+
+dependencies {
+    // 添加 ExoPlayer 2 依赖
+    implementation 'com.google.android.exoplayer:exoplayer:2.18.7'
+    // 移除或注释掉 Media3 依赖
+    // implementation 'androidx.media3:media3-exoplayer:1.9.2'
+}
